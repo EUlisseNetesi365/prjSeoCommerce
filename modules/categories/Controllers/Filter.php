@@ -35,7 +35,6 @@ class Filter
     public function __invoke(Request $request, Response $response): Response
     {
         $post = $request->getParsedBody();
-
         $language = $request->getAttribute('locale');
         $filter = (!empty($post['filter'])) ? (string) $post['filter'] : '';
         $search = new Search($this->db, $this->cache, $this->log, $this->cache_settings, $language);
