@@ -1,0 +1,19 @@
+{
+    "body": {
+        "stay_in_contact": "Stay in contact",
+        "contact_us": "Contact us",
+        "send": "Send",
+        "name": "Name",
+        "last_name": "Surname",
+        "email": "Email",
+        "collaborate": "We have partnered with these amazing companies",
+        "meta_title": "Sport Teams",
+        "meta_description": "We have partnered with these amazing companies",
+        "meta_keywords": "Custom sports t-shirts, soccer t-shirts, graphic print t-shirts",
+        "meta_url": "/en/societa-sportive",
+        "meta_image": "/arcigraphic/templates/img/arcigraphic-fooder.png",
+        "note": "Note",
+        "question": "Do you have questions or requests about Arcigraphic products?",
+        "contact_service": "Contact our customer service"
+    }
+}

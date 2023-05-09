@@ -1,0 +1,28 @@
+{
+    "body": {
+        "size": "Taglia",
+        "locale": "it",
+        "previous": "Prec",
+        "next": "Succ",
+        "quantity": "Quantità",
+        "add_to_cart": "Aggiungi al Carrello",
+        "also_like": "Potrebbe piacerti anche",
+        "details": "I Dettagli",
+        "delivery": "Consegna",
+        "returns": "Resi",
+        "empty": "Non ci sono prodotti al momento",
+        "composition": "Composizione",
+        "components": "Componenti Analitici",
+        "additives": "Additivi",
+        "instructions": "Istruzioni per l'uso",
+        "available": "Disponibile",
+        "not_available": "Non Disponibile",
+        "product_available": "Quantità non disponibile",
+        "options": "OPZIONI",
+        "size": "Taglia",
+        "prev": "Prec",
+        "next": "Succ",
+        "price": "Prezzo",
+        "currency": "€"
+    }
+}

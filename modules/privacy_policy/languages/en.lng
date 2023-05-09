@@ -1,0 +1,16 @@
+{ 
+    "body": {
+        "page": "Privacy",
+        "title_txt": "FOODIES is committed to protecting the privacy of its customers. This Privacy and Cookie Policy describes the information we collect, how we use it, and our security measures to protect your information.",
+        "get_info": "Information Collected",
+        "get_info_txt": "We collect personal information such as name, e-mail address, postal address, telephone number and other data voluntarily provided by our customers. We also collect information about the use of our website, such as the pages visited, the products purchased and the services used.",
+        "use_info": "Use of Information",
+        "use_info_txt": "The information collected is used to provide our customers with a better service, including sending you information about our products and services. Furthermore, the information may be used to improve the quality of our service, to monitor the use of our website and to personalize navigation.",
+        "safety_info": "Information security",
+        "safety_info_txt": "Our customers' personal information is protected from unauthorized access. We use advanced security technologies to protect your information from unauthorized access, misuse or disclosure.",
+        "cookie": "Cookies",
+        "cookie_txt": "We use cookies to improve the experience of our customers and to monitor the use of our website. Cookies are small text files that are stored on the user's computer. They allow the website to recognize a user and customize navigation according to his preferences. Cookies can be disabled from the user's browser settings at any time.",
+        "update": "Updates",
+        "update_txt": "This Privacy and Cookie Policy may be subject to change at any time. We invite you to periodically check this page to check for any updates."
+    }
+}

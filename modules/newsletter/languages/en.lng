@@ -1,0 +1,11 @@
+{
+    "body": {
+        "confirm_sub": "Arcigraphic - Confirm newsletter subscription",
+        "bad_sub": "Invalid confirmation link",
+        "bad_sub_tuts": "Request new membership",
+        "sub_ok": "Registration confirmed"
+    },
+    "mail": {
+        "subj_News_confirm": "Arcigraphic - Confirm newsletter subscription"
+    }
+}

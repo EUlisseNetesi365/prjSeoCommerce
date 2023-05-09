@@ -1,0 +1,26 @@
+{
+    "body": {
+        "stay_in_contact": "Stay in contact",
+        "contact_us": "Contact us",
+        "send": "Send",
+        "name": "Name",
+        "last_name": "Surname",
+        "email": "Email",
+        "note": "Note",
+        "question": "Do you have questions or requests about Arcigraphic products?",
+        "contact_service": "Contact our customer service",
+        "contact_body": "We are here for you! For any information, doubt, special request, complaint or suggestion to improve our products and services, do not hesitate to get in touch with us. Below you will find all our contact details",
+        "sede": "Registered/Operational Headquarters:",
+        "meta_title": "Contact us",
+        "meta_description": "We are here for you! For any information, doubt, special request, complaint or suggestion to improve our products and services, do not hesitate to get in touch with us. Below you will find all our contact details",
+        "meta_keywords": "Custom sports t-shirts, soccer t-shirts, graphic print t-shirts",
+        "meta_url": "/en/contact_us",
+        "meta_image": "/arcigraphic/templates/img/arcigraphic-fooder.png"
+    },
+    "mail": {
+        "subj_request_info": "Arcigraphic - Request Information",
+        "error_send": "Your request could not be sent, please try again later",
+        "error_invalid_email": "Email not valid",
+        "success_send": "Request sent successfully"
+    }
+}

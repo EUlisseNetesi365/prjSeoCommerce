@@ -1,0 +1,16 @@
+{ 
+    "body": {
+        "page": "Privacy",
+        "title_txt": "FOODIES è impegnata a tutelare la privacy dei propri clienti. La presente Privacy e Cookie Policy descrive le informazioni che raccogliamo, come le usiamo e le nostre misure di sicurezza per proteggere le informazioni.",
+        "get_info": "Informazioni raccolte",
+        "get_info_txt": "Raccogliamo informazioni personali come nome, indirizzo e-mail, indirizzo postale, numero di telefono e altri dati forniti volontariamente dai nostri clienti. Inoltre, raccogliamo informazioni sull'utilizzo del nostro sito web, come ad esempio le pagine visitate, i prodotti acquistati e i servizi utilizzati.",
+        "use_info": "Utilizzo delle informazioni",
+        "use_info_txt": "Le informazioni raccolte vengono utilizzate per fornire ai nostri clienti un servizio migliore, compreso l'invio di informazioni sui nostri prodotti e servizi. Inoltre, le informazioni possono essere utilizzate per migliorare la qualità del nostro servizio, per monitorare l'utilizzo del nostro sito web e per personalizzare la navigazione.",
+        "safety_info": "Sicurezza delle informazioni",
+        "safety_info_txt": "Le informazioni personali dei nostri clienti sono protette da accessi non autorizzati. Utilizziamo tecnologie di sicurezza avanzate per proteggere le informazioni da accessi non autorizzati, uso improprio o divulgazione.",
+        "cookie": "Cookies",
+        "cookie_txt": "Utilizziamo i cookies per migliorare l'esperienza dei nostri clienti e per monitorare l'utilizzo del nostro sito web. I cookies sono piccoli file di testo che vengono memorizzati sul computer dell'utente. Permettono al sito web di riconoscere un utente e di personalizzare la navigazione in base alle sue preferenze. I cookies possono essere disabilitati dalle impostazioni del browser dell'utente in qualsiasi momento.",
+        "update": "Aggiornamenti",
+        "update_txt": "Questa Privacy e Cookie Policy può essere soggetta a modifiche in qualsiasi momento. Vi invitiamo a controllare periodicamente questa pagina per verificare eventuali aggiornamenti."
+    }
+}

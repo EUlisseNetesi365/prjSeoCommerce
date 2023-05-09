@@ -1,0 +1,11 @@
+{
+    "body": {
+        "confirm_sub": "Arcigraphic - Conferma iscrizione newsletter",
+        "bad_sub": "Link conferma non valido",
+        "bad_sub_tuts": "Richiedi nuova iscrizione",
+        "sub_ok": "Iscrizione confermata"
+    },
+    "mail": {
+        "subj_News_confirm": "Arcigraphic - Conferma Indirizzo Mail"
+    }
+}

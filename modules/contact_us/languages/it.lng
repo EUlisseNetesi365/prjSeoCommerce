@@ -1,0 +1,26 @@
+{
+    "body": {
+        "stay_in_contact": "Resta in contatto",
+        "contact_us": "Contattaci",
+        "send": "Invia",
+        "name": "Nome",
+        "last_name": "Cognome",
+        "email": "Email",
+        "note": "Note",
+        "question": "Hai domande o richieste sui prodotti Arcigraphic?",
+        "contact_service": "Contatta il nostro Servizio Clienti",
+        "contact_body": "Siamo qui per te! Per qualsiasi informazione, dubbio, richiesta particolare, reclamo o suggerimento per migliorare i nostri prodotti e servizi, non esitare a metterti in contatto con noi. Di seguito trovi tutti i nostri recapiti",
+        "sede": "Sede Legale/Operativa:",
+        "meta_title": "Contattaci",
+        "meta_description": "Siamo qui per te! Per qualsiasi informazione, dubbio, richiesta particolare, reclamo o suggerimento per migliorare i nostri prodotti e servizi, non esitare a metterti in contatto con noi. Di seguito trovi tutti i nostri recapiti",
+        "meta_keywords": "Magliette personalizzate sport, magliette calcetto, stampa grafica magliette",
+        "meta_url": "/it/contact_us",
+        "meta_image": "/arcigraphic/templates/img/arcigraphic-fooder.png"
+    },
+    "mail": {
+        "subj_request_info": "Arcigraphic - Richiesta Informazioni",
+        "error_send": "Non è stato possibile inviare la richiesta, riprovare più tardi",
+        "error_invalid_email": "Email non valida",
+        "success_send": "Richiesta inviata con successo"
+    }
+}

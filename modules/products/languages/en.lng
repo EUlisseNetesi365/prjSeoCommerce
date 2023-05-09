@@ -1,0 +1,28 @@
+{
+    "body": {
+        "size": "Size",
+        "locale": "en",
+        "previous": "Prev",
+        "next": "Next",
+        "quantity": "Quantity",
+        "add_to_cart": "Add To Cart",
+        "also_like": "You May Also Like",
+        "details": "The Details",
+        "delivery": "Delivery",
+        "returns": "Returns",
+        "empty": "There are no products at the moment",
+        "composition": "Composition",
+        "components": "Analytical Components",
+        "additives": "Additives",
+        "instructions": "Instructions for Use",
+        "available": "Available",
+        "not_available": "Not Available",
+        "product_available": "Quantity not available",
+        "options": "OPTIONS",
+        "size": "Size",
+        "prev": "Prev",
+        "next": "Next",
+        "price": "Price",
+        "currency": "€"
+    }
+}

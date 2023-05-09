@@ -1,0 +1,19 @@
+{
+    "body": {
+        "stay_in_contact": "Resta in contatto",
+        "contact_us": "Contattaci",
+        "send": "Invia",
+        "name": "Nome",
+        "last_name": "Cognome",
+        "email": "Email",
+        "collaborate": "Abbiamo collaborato con queste fantastiche società",
+        "meta_title": "Società sportive",
+        "meta_description": "Abbiamo collaborato con queste fantastiche società",
+        "meta_keywords": "Magliette personalizzate sport, magliette calcetto, stampa grafica magliette",
+        "meta_url": "/it/societa-sportive",
+        "meta_image": "/arcigraphic/templates/img/arcigraphic-fooder.png",
+        "note": "Note",
+        "question": "Hai domande o richieste sui prodotti Arcigraphic?",
+        "contact_service": "Contatta il nostro Servizio Clienti"
+    }
+}

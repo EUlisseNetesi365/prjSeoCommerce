@@ -1,0 +1,18 @@
+{
+    "body": {
+        "stay_in_contact": "Stay in contact",
+        "contact_us": "Contact us",
+        "send": "Send",
+        "name": "Name",
+        "last_name": "Surname",
+        "email": "Email",
+        "note": "Note",
+        "question": "Do you have questions or requests about Arcigraphic products?",
+        "contact_service": "Contact our customer service",
+        "meta_title": "Catalog",
+        "meta_description": "Our catalog",
+        "meta_keywords": "Custom sports t-shirts, soccer t-shirts, graphic print t-shirts",
+        "meta_url": "/en/catalogo",
+        "meta_image": "/arcigraphic/templates/img/arcigraphic-fooder.png"
+    }
+}
