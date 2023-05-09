@@ -28,7 +28,7 @@ return [
     'settings.twig' => [
         // Template paths
         'paths' => [
-            realpath(__DIR__ .'/../templates'),
+            realpath(__DIR__ .'/../templates/default'),
         ],
         'debug' => true,
         'path' => realpath(__DIR__ .'/../cache'),
