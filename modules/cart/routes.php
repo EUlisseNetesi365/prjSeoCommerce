@@ -2,6 +2,7 @@
 
 use Slim\App;
 
+
 $app->get('/cart', \Modules\cart\Views\CartCheckout::class);
 $app->post('/add_to_cart', \Modules\cart\Controllers\AddToCart::class);
 $app->post('/edit_item_cart', \Modules\cart\Controllers\EditItemCart::class);
