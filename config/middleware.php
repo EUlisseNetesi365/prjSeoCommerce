@@ -17,13 +17,15 @@ use PerSeo\MiddleWare\HttpExceptionMiddleware;
 use PerSeo\MiddleWare\ErrorHandlerMiddleware;
 use PerSeo\MiddleWare\GZIP;
 use Odan\Session\Middleware\SessionMiddleware;
-use Modules\layout\Middleware as LayoutMiddleware;
+use Modules\layout\MiddleWare\Middleware as LayoutMiddleware;
 
 
 return function (App $app) {
+
+
     $settings = $app->getContainer()->get('settings.global');
     
-    if (file_exists('settings.php')) { $app->add(LayoutMiddleware::class); }
+    if (file_exists(__DIR__ . '/settings.php')) { $app->add(LayoutMiddleware::class); }
     // Parse json, form data and xml
     $app->addBodyParsingMiddleware();
     
@@ -37,8 +39,8 @@ return function (App $app) {
     // Add locale in url Middleware
     $app->add(new Locale($app, $settings['locale'], $settings['languages']));
     
-    if (file_exists('settings.php')) { $app->add(Alias::class); }
-    
+    if (file_exists(__DIR__ . '/settings.php')) { $app->add(Alias::class); }
+
     $app->add(Maintenance::class);
     
     $app->add(Admin::class);
