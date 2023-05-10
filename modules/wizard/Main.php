@@ -19,18 +19,21 @@ final class Main
 
     public function __construct(App $app, ContainerInterface $container, Twig $twig)
     {
-	$this->app = $app;
-	$this->container = $container;
+        $this->app = $app;
+        $this->container = $container;
         $this->twig = $twig;
     }
 
     public function __invoke(Request $request, Response $response): Response {
 	$config = $this->container->get('settings.root') .'/config';
 	$module = $this->container->get('settings.modules') .'/wizard';
+	$global = $this->container->get('settings.global');
+	$defaultpl = $global['template'];
 	$lang = new Translator($request->getAttribute('language'), $module);
 	$langs = $lang->get();
         $viewData = [
 			'basepath' => (string) $this->app->getBasePath(),
+            'template' => $defaultpl,
 			'cookiepath' => (string) (!empty($this->app->getBasePath()) ? $this->app->getBasePath() : '') .'/',
             'writeperm' => (is_writable($config) ? "ok" : "no"),
 			'language' => $request->getAttribute('language'),

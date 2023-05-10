@@ -23,7 +23,7 @@ use Modules\layout\Middleware as LayoutMiddleware;
 return function (App $app) {
     $settings = $app->getContainer()->get('settings.global');
     
-    $app->add(LayoutMiddleware::class);
+    if (file_exists('settings.php')) { $app->add(LayoutMiddleware::class); }
     // Parse json, form data and xml
     $app->addBodyParsingMiddleware();
     
@@ -37,7 +37,7 @@ return function (App $app) {
     // Add locale in url Middleware
     $app->add(new Locale($app, $settings['locale'], $settings['languages']));
     
-    $app->add(Alias::class);
+    if (file_exists('settings.php')) { $app->add(Alias::class); }
     
     $app->add(Maintenance::class);
     

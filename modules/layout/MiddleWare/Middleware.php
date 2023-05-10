@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\layout;
+namespace Modules\layout\MiddleWare;
 
 use Modules\categories\Classes\Category;
 use Modules\settings\Settings;

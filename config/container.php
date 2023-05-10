@@ -44,10 +44,6 @@ return [
         return new LoggerFactory($container->get('settings.logger'));
     },
 
-   /* LoadSettings::class => function (App $app, ContainerInterface $container, Psr16Adapter $cache, DBDefault $db) {
-        return new LoadSettings($app, $container, $cache, $db);
-    },*/
-
     LoggerInterface::class => function (ContainerInterface $container): Logger {
         $loggerSettings = $container->get('settings.logger');
 

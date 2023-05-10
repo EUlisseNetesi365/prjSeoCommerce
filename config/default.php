@@ -11,7 +11,8 @@ return [
     'settings.global' => [
         'locale' => false,
         'language' => 'en',
-        'languages' => ['it', 'en']
+        'languages' => ['it', 'en'],
+        'template'=> 'default'
     ],
     'settings.root'     => realpath(__DIR__ .'/..'),
     'settings.temp' => realpath(__DIR__ .'/../tmp'),

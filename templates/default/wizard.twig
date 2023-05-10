@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="{{ basepath }}/templates/css/style.css">
-  <link rel="stylesheet" href="{{ basepath }}/templates/css/loader.css">
-  <link rel="stylesheet" href="{{ basepath }}/templates/css/flags.css">
+  <link rel="stylesheet" href="{{ basepath }}/templates/{{ template }}/css/style.css">
+  <link rel="stylesheet" href="{{ basepath }}/templates/{{ template }}/css/loader.css">
+  <link rel="stylesheet" href="{{ basepath }}/templates/{{ template }}/css/flags.css">
 </head>
 <body>
 <input type="hidden" name="{{ csrf.nameKey }}" value="{{ csrf.name }}">
@@ -202,8 +202,8 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.complexify.js/0.5.1/jquery.complexify.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
-	<script type="text/javascript" src="{{ basepath }}/templates/js/functions.js" charset="UTF-8"></script>
-	<script type="text/javascript" src="{{ basepath }}/templates/js/jquery.jquery-password-generator-plugin.min.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="{{ basepath }}/templates/{{ template }}/js/functions.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="{{ basepath }}/templates/{{ template }}/js/jquery.jquery-password-generator-plugin.min.js" charset="UTF-8"></script>
 	<script>
 	$(document).ready(function() {			
             $("#pass").complexify({}, function (valid, complexity) {
