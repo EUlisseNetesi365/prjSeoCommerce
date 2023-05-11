@@ -1,3 +1,4 @@
 [submodule "templates/arcigraphic_tpl"]
+    active = false
 	path = templates/arcigraphic_tpl
 	url = https://github.com/EUlisseNetesi365/arcigraphic_tpl.git

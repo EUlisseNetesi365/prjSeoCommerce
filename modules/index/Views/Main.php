@@ -66,7 +66,7 @@ class Main {
         $alias1 = $categories->getCategoryAlias($id1);
         $alias2 = $categories->getCategoryAlias($id2);
         $alias3 = $categories->getCategoryAlias($id3);
-        var_dump("Emilio è un ubriacone"); die();
+
         $viewData = [ ...$viewData,
             'index' => "true",
             'filter' => false,
